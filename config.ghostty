@@ -1,0 +1,26 @@
+# Appearance
+theme = dark:Catppuccin Frappe,light:Catppuccin Latte
+font-size = 14
+window-padding-x = 12
+window-padding-y = 10
+mouse-hide-while-typing = false
+
+# Optional transparency and blur
+background-opacity = 0.95
+background-blur = true
+
+# Dropdown terminal: Cmd + `
+keybind = global:cmd+backquote=toggle_quick_terminal
+quick-terminal-position = top
+
+# Split management
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+keybind = cmd+shift+enter=toggle_split_zoom
+
+# Jump between previous command prompts
+keybind = cmd+alt+up=jump_to_prompt:-1
+keybind = cmd+alt+down=jump_to_prompt:1
+
+# Open terminal output in your default text editor
+keybind = cmd+shift+o=write_scrollback_file:open
