@@ -17,6 +17,7 @@ keybind = cmd+shift+o=write_scrollback_file:open
 
 # Commands
 copy-on-select = clipboard
+keybind = global:ctrl+cmd+n=new_window
 
 # Appearance
 theme = dark:Catppuccin Frappe,light:Catppuccin Latte
