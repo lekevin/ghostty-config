@@ -20,7 +20,7 @@ copy-on-select = clipboard
 keybind = global:ctrl+cmd+n=new_window
 
 # Appearance
-theme = dark:Catppuccin Frappe,light:Catppuccin Latte
+theme = Catppuccin Frappe
 font-size = 14
 window-padding-x = 12
 
